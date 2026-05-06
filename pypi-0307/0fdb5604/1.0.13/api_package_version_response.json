@@ -1,0 +1,126 @@
+{
+    "info": {
+        "author": null,
+        "author_email": null,
+        "bugtrack_url": null,
+        "classifiers": [
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3 :: Only",
+            "Programming Language :: Python :: 3.11"
+        ],
+        "description": "Hi there, hello\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": null,
+        "keywords": "nlp, agents, code",
+        "license": null,
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "0fdb5604",
+        "package_url": "https://pypi.org/project/0fdb5604/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/0fdb5604/",
+        "project_urls": null,
+        "provides_extra": [
+            "dev",
+            "modal",
+            "fargate"
+        ],
+        "release_url": "https://pypi.org/project/0fdb5604/1.0.13/",
+        "requires_dist": [
+            "fastapi",
+            "uvicorn",
+            "requests",
+            "pydantic>=2",
+            "pexpect",
+            "bashlex",
+            "python-multipart",
+            "rich",
+            "mkdocs-material; extra == \"dev\"",
+            "mkdocs-glightbox; extra == \"dev\"",
+            "mkdocs-include-markdown-plugin; extra == \"dev\"",
+            "mkdocstrings[python]>=0.18; extra == \"dev\"",
+            "pytest; extra == \"dev\"",
+            "pytest-cov; extra == \"dev\"",
+            "pre-commit; extra == \"dev\"",
+            "pytest-asyncio; extra == \"dev\"",
+            "griffe-pydantic; extra == \"dev\"",
+            "swerex[modal]; extra == \"dev\"",
+            "swerex[fargate]; extra == \"dev\"",
+            "modal; extra == \"modal\"",
+            "boto3; extra == \"modal\"",
+            "boto3; extra == \"fargate\""
+        ],
+        "requires_python": ">=3.10",
+        "summary": null,
+        "version": "1.0.13",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 26360275,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "moodyreindeer"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "04b5ea3c84f75d997d61b2b801eaf5d4f226846fd94a6ca60b0fe5ecba725b02",
+                "md5": "f8de5adc59b8a1f2f79c239ce557097d",
+                "sha256": "bedeb0d69addb0a543582532e0dd14bf911fb24632bcb9b8fd747f90c528838b"
+            },
+            "downloads": -1,
+            "filename": "0fdb5604-1.0.13-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "f8de5adc59b8a1f2f79c239ce557097d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.10",
+            "size": 36440,
+            "upload_time": "2024-12-01T00:53:04",
+            "upload_time_iso_8601": "2024-12-01T00:53:04.363645Z",
+            "url": "https://files.pythonhosted.org/packages/04/b5/ea3c84f75d997d61b2b801eaf5d4f226846fd94a6ca60b0fe5ecba725b02/0fdb5604-1.0.13-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "c81ebc5960ffec77991f7271823b572b8585eb1dd2dbe9a1f2eba2fdbc8110df",
+                "md5": "2d5cb0838347e6c8e27c214f2b6990e9",
+                "sha256": "13ca57bb8376b33c9ecc0f27cf61cd60215a98edbdb6e699efe7587de30cfb07"
+            },
+            "downloads": -1,
+            "filename": "0fdb5604-1.0.13.tar.gz",
+            "has_sig": false,
+            "md5_digest": "2d5cb0838347e6c8e27c214f2b6990e9",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.10",
+            "size": 32019,
+            "upload_time": "2024-12-01T00:53:05",
+            "upload_time_iso_8601": "2024-12-01T00:53:05.904327Z",
+            "url": "https://files.pythonhosted.org/packages/c8/1e/bc5960ffec77991f7271823b572b8585eb1dd2dbe9a1f2eba2fdbc8110df/0fdb5604-1.0.13.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
