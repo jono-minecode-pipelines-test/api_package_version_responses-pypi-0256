@@ -1,0 +1,121 @@
+{
+    "info": {
+        "author": "Garima Mittal",
+        "author_email": "<gmittal1_be20@thapar.edu>",
+        "bugtrack_url": null,
+        "classifiers": [
+            "Development Status :: 1 - Planning",
+            "Intended Audience :: Developers",
+            "Operating System :: MacOS :: MacOS X",
+            "Operating System :: Microsoft :: Windows",
+            "Operating System :: Unix",
+            "Programming Language :: Python :: 3"
+        ],
+        "description": "",
+        "description_content_type": "",
+        "docs_url": null,
+        "download_url": "",
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": "",
+        "keywords": "python,video,stream,video stream,camera stream,sockets",
+        "license": "",
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": "",
+        "maintainer_email": "",
+        "name": "102003712",
+        "package_url": "https://pypi.org/project/102003712/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/102003712/",
+        "project_urls": null,
+        "provides_extra": null,
+        "release_url": "https://pypi.org/project/102003712/0.0.2/",
+        "requires_dist": null,
+        "requires_python": "",
+        "summary": "A Topsis Package",
+        "version": "0.0.2",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 16525200,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "gmittal1"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "44544d79033fd6c956e05bf8c4d2da7ab42766d5fd09abec57f996cad98078a2",
+                "md5": "ee85ae7b482246da602917dae45d978c",
+                "sha256": "0d5246e1a234a79f440efbdf4e13d6510503734deab3b419a8da8065be69c8cb"
+            },
+            "downloads": -1,
+            "filename": "102003712-0.0.2-py3.10.egg",
+            "has_sig": false,
+            "md5_digest": "ee85ae7b482246da602917dae45d978c",
+            "packagetype": "bdist_egg",
+            "python_version": "0.0.2",
+            "requires_python": null,
+            "size": 3830,
+            "upload_time": "2023-01-22T20:04:14",
+            "upload_time_iso_8601": "2023-01-22T20:04:14.549341Z",
+            "url": "https://files.pythonhosted.org/packages/44/54/4d79033fd6c956e05bf8c4d2da7ab42766d5fd09abec57f996cad98078a2/102003712-0.0.2-py3.10.egg",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "a4d1d577492cd1ae80fa5848be203ff4b2dcb792ed2810aecfff5c5a721e7c4d",
+                "md5": "dfc5168008dc345c33af2889c857136d",
+                "sha256": "cdb5c1165a1342424748fb2b4e5755e8493bcbf4f775705b9640c8eb73e1709e"
+            },
+            "downloads": -1,
+            "filename": "102003712-0.0.2-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "dfc5168008dc345c33af2889c857136d",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": null,
+            "size": 2410,
+            "upload_time": "2023-01-22T20:04:11",
+            "upload_time_iso_8601": "2023-01-22T20:04:11.993416Z",
+            "url": "https://files.pythonhosted.org/packages/a4/d1/d577492cd1ae80fa5848be203ff4b2dcb792ed2810aecfff5c5a721e7c4d/102003712-0.0.2-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "112bdc0466c886f7da2f23472d2ed80e084c6891aaef070bc822b60045b1002a",
+                "md5": "c69f72eb4e1ae0cf9b8e0a19eb2f066e",
+                "sha256": "e690730102907fa61906bd0eab51ba13f5fb7a2a0902490d470d2105ef4850af"
+            },
+            "downloads": -1,
+            "filename": "102003712-0.0.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "c69f72eb4e1ae0cf9b8e0a19eb2f066e",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": null,
+            "size": 2266,
+            "upload_time": "2023-01-22T20:04:17",
+            "upload_time_iso_8601": "2023-01-22T20:04:17.317389Z",
+            "url": "https://files.pythonhosted.org/packages/11/2b/dc0466c886f7da2f23472d2ed80e084c6891aaef070bc822b60045b1002a/102003712-0.0.2.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
