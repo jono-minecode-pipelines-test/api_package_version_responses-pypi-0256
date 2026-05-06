@@ -1,0 +1,105 @@
+{
+    "info": {
+        "author": "jiwu-moz",
+        "author_email": null,
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "",
+        "description_content_type": null,
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": [
+            "License-File"
+        ],
+        "home_page": null,
+        "keywords": null,
+        "license": null,
+        "license_expression": null,
+        "license_files": [
+            "LICENSE"
+        ],
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "0din-jef",
+        "package_url": "https://pypi.org/project/0din-jef/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/0din-jef/",
+        "project_urls": {
+            "Homepage": "https://0din.ai",
+            "Repository": "https://github.com/0din-ai/0din-JEF"
+        },
+        "provides_extra": [
+            "dev"
+        ],
+        "release_url": "https://pypi.org/project/0din-jef/0.1.4/",
+        "requires_dist": [
+            "pytest; extra == \"dev\"",
+            "requests; extra == \"dev\""
+        ],
+        "requires_python": ">=3.12",
+        "summary": "Jailbreak Evaluation Module",
+        "version": "0.1.4",
+        "yanked": true,
+        "yanked_reason": "no project descript"
+    },
+    "last_serial": 34550372,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "0din"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "059c01ba688fa909a7b492d542469c457be8d58f5160885d2b7b52f4d87a07bf",
+                "md5": "68522f9136b0118b8e581bc303cde859",
+                "sha256": "55515b069568d62a744a5db24e38e5088002fe6ca947d096cbc75754b86e0f13"
+            },
+            "downloads": -1,
+            "filename": "0din_jef-0.1.4-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "68522f9136b0118b8e581bc303cde859",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.12",
+            "size": 25848,
+            "upload_time": "2025-06-12T17:23:01",
+            "upload_time_iso_8601": "2025-06-12T17:23:01.645875Z",
+            "url": "https://files.pythonhosted.org/packages/05/9c/01ba688fa909a7b492d542469c457be8d58f5160885d2b7b52f4d87a07bf/0din_jef-0.1.4-py3-none-any.whl",
+            "yanked": true,
+            "yanked_reason": "no project descript"
+        },
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "32a909b2aaf7f8b1ab55c5f1a31e0fef453bb8b451634b8754260891d356eb22",
+                "md5": "507b5c6ea7ca46459ccc332f588ace7b",
+                "sha256": "6ab52b6ceb5d109e83669087a21e754b3901a8519a31bf3b325a077a2df053e2"
+            },
+            "downloads": -1,
+            "filename": "0din_jef-0.1.4.tar.gz",
+            "has_sig": false,
+            "md5_digest": "507b5c6ea7ca46459ccc332f588ace7b",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.12",
+            "size": 20932,
+            "upload_time": "2025-06-12T17:23:03",
+            "upload_time_iso_8601": "2025-06-12T17:23:03.433239Z",
+            "url": "https://files.pythonhosted.org/packages/32/a9/09b2aaf7f8b1ab55c5f1a31e0fef453bb8b451634b8754260891d356eb22/0din_jef-0.1.4.tar.gz",
+            "yanked": true,
+            "yanked_reason": "no project descript"
+        }
+    ],
+    "vulnerabilities": []
+}

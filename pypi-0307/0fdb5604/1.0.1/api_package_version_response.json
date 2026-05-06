@@ -1,0 +1,123 @@
+{
+    "info": {
+        "author": null,
+        "author_email": null,
+        "bugtrack_url": null,
+        "classifiers": [
+            "Intended Audience :: Developers",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+            "Programming Language :: Python :: 3 :: Only",
+            "Programming Language :: Python :: 3.11"
+        ],
+        "description": "<div align=\"center\">\n\n<img src=\"docs/assets/swerex.svg\" alt=\"SWE-ReX\" width=\"200\"/>\n\n# SWE-agent Remote Execution Framework\n\n[![Pytest](https://github.com/SWE-agent/swe-rex/actions/workflows/pytest.yaml/badge.svg)](https://github.com/SWE-agent/swe-rex/actions/workflows/pytest.yaml)\n[![Check Markdown links](https://github.com/SWE-agent/swe-rex/actions/workflows/check-links.yaml/badge.svg)](https://github.com/SWE-agent/swe-rex/actions/workflows/check-links.yaml)\n[![build-docs](https://github.com/SWE-agent/swe-rex/actions/workflows/build-docs.yaml/badge.svg)](https://github.com/SWE-agent/swe-rex/actions/workflows/build-docs.yaml)\n</div>\n\n## Install\n\n```bash\npip install -e .\n# With modal support\npip install -e '.[modal]'\n# Development setup (all optional dependencies)\npip install -e '.[dev]'\n```\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": null,
+        "home_page": null,
+        "keywords": "nlp, agents, code",
+        "license": null,
+        "license_expression": null,
+        "license_files": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "0fdb5604",
+        "package_url": "https://pypi.org/project/0fdb5604/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/0fdb5604/",
+        "project_urls": null,
+        "provides_extra": [
+            "dev",
+            "modal"
+        ],
+        "release_url": "https://pypi.org/project/0fdb5604/1.0.1/",
+        "requires_dist": [
+            "fastapi",
+            "uvicorn",
+            "requests",
+            "pydantic>=2",
+            "pexpect",
+            "bashlex",
+            "python-multipart",
+            "rich",
+            "mkdocs-material; extra == \"dev\"",
+            "mkdocs-glightbox; extra == \"dev\"",
+            "mkdocs-include-markdown-plugin; extra == \"dev\"",
+            "mkdocstrings[python]>=0.18; extra == \"dev\"",
+            "pytest; extra == \"dev\"",
+            "pytest-cov; extra == \"dev\"",
+            "pre-commit; extra == \"dev\"",
+            "pytest-asyncio; extra == \"dev\"",
+            "griffe-pydantic; extra == \"dev\"",
+            "swerex[modal]; extra == \"dev\"",
+            "modal; extra == \"modal\"",
+            "boto3; extra == \"modal\""
+        ],
+        "requires_python": ">=3.9",
+        "summary": null,
+        "version": "1.0.1",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 26360275,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "moodyreindeer"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "af66641a9498337f2ebe4e1bad4b39cfcf88e0c6f43a7bc178ed5cc65a9355ff",
+                "md5": "fb199d089b155197ae42e871e3004d63",
+                "sha256": "8574cd4ee0d8d42e0cb16d29967c34aa1b0a06133998ff8e339830061d7d2cd9"
+            },
+            "downloads": -1,
+            "filename": "0fdb5604-1.0.1-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "fb199d089b155197ae42e871e3004d63",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.9",
+            "size": 30354,
+            "upload_time": "2024-11-13T01:33:18",
+            "upload_time_iso_8601": "2024-11-13T01:33:18.206366Z",
+            "url": "https://files.pythonhosted.org/packages/af/66/641a9498337f2ebe4e1bad4b39cfcf88e0c6f43a7bc178ed5cc65a9355ff/0fdb5604-1.0.1-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": "",
+            "digests": {
+                "blake2b_256": "e92789fc3f91d1b5062eb17b6a8ee320be98b409b2167a65d5c4aef7ad412937",
+                "md5": "aedd602178d96d5d5fae4b303ef0e9f1",
+                "sha256": "56ed9a3ea0e0268c410f0f04945dcce68bd611f79d4bef11374b11bfccf35510"
+            },
+            "downloads": -1,
+            "filename": "0fdb5604-1.0.1.tar.gz",
+            "has_sig": false,
+            "md5_digest": "aedd602178d96d5d5fae4b303ef0e9f1",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.9",
+            "size": 28008,
+            "upload_time": "2024-11-13T01:33:19",
+            "upload_time_iso_8601": "2024-11-13T01:33:19.770854Z",
+            "url": "https://files.pythonhosted.org/packages/e9/27/89fc3f91d1b5062eb17b6a8ee320be98b409b2167a65d5c4aef7ad412937/0fdb5604-1.0.1.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}

@@ -1,0 +1,105 @@
+{
+    "info": {
+        "author": "jiwu-moz",
+        "author_email": null,
+        "bugtrack_url": null,
+        "classifiers": [],
+        "description": "# Jailbreak Evaluation Framework (JEF)\n\n[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n\n**[Full Documentation](https://0din-ai.github.io/0din-JEF/)** | [0din.ai](https://www.0din.ai)\n\nJEF is a CVSS-like scoring system for quantifying LLM jailbreak tactics. It provides a structured, repeatable framework for stack-ranking jailbreak methods based on their real-world efficacy and risk, scoring across three dimensions:\n\n- **Model Impact Radius** \u2014 How many models and vendors are affected\n- **Retargetability** \u2014 How flexibly the tactic applies across content categories\n- **Output Fidelity** \u2014 How accurate and detailed the resulting outputs are\n\n## Installation\n\n```\npip install 0din-jef\n```\n\n## Quick Start\n\n```python\nfrom jef import tiananmen, meth, nerve_agent, harry_potter\n\n# Score against standardized benchmarks (0-100)\nresult = tiananmen.score(\"LLM response text\")\nresult = meth.score(\"LLM response text\")\nresult = nerve_agent.score(\"LLM response text\")\nresult = harry_potter.score(\"LLM output\", \"reference text\")\n\n# Compute composite JEF score (0-10)\nfrom jef import calculator\njef_score = calculator(num_vendors=3, num_models=7, num_subjects=2, scores=[80, 75])\n```\n\n## Documentation\n\nFor the full framework methodology, scoring algorithm, complete usage guide, and API reference, visit the **[JEF Documentation](https://0din-ai.github.io/0din-JEF/)**.\n\n## Resources\n\n* [Blog: Quantifying the Unruly \u2014 A Scoring System for Jailbreak Tactics](https://0din.ai/blog/quantifying-the-unruly-a-scoring-system-for-jailbreak-tactics)\n* [Overview: Jailbreak Evaluation Framework](https://0din.ai/research/jailbreak_evaluation_framework)\n* [JEF Calculator](https://0din.ai/research/jailbreak_evaluation_framework/calculator)\n* [Standardized Testing](https://0din.ai/research/jailbreak_evaluation_framework/testing) (0DIN Researcher Authentication Required)\n\n## Releases\n\nReleases are managed through GitHub Releases and automatically published to [PyPI](https://pypi.org/project/0din-jef/).\n",
+        "description_content_type": "text/markdown",
+        "docs_url": null,
+        "download_url": null,
+        "downloads": {
+            "last_day": -1,
+            "last_month": -1,
+            "last_week": -1
+        },
+        "dynamic": [
+            "License-File"
+        ],
+        "home_page": null,
+        "keywords": null,
+        "license": null,
+        "license_expression": null,
+        "license_files": [
+            "LICENSE"
+        ],
+        "maintainer": null,
+        "maintainer_email": null,
+        "name": "0din-jef",
+        "package_url": "https://pypi.org/project/0din-jef/",
+        "platform": null,
+        "project_url": "https://pypi.org/project/0din-jef/",
+        "project_urls": {
+            "Homepage": "https://0din.ai",
+            "Repository": "https://github.com/0din-ai/0din-JEF"
+        },
+        "provides_extra": [
+            "dev"
+        ],
+        "release_url": "https://pypi.org/project/0din-jef/0.3.2/",
+        "requires_dist": [
+            "pytest; extra == \"dev\"",
+            "requests; extra == \"dev\""
+        ],
+        "requires_python": ">=3.12",
+        "summary": "Jailbreak Evaluation Module",
+        "version": "0.3.2",
+        "yanked": false,
+        "yanked_reason": null
+    },
+    "last_serial": 34550372,
+    "ownership": {
+        "organization": null,
+        "roles": [
+            {
+                "role": "Owner",
+                "user": "0din"
+            }
+        ]
+    },
+    "urls": [
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "155759cdd1eb39c4f7a7623fca32819f8c30aec7dac4b684f887e55d05073040",
+                "md5": "379867e2e896357a2e2088dea74324b4",
+                "sha256": "5ec8351f502d53ba730c50acaba548aa813afddcd8333a3d22103574d646d585"
+            },
+            "downloads": -1,
+            "filename": "0din_jef-0.3.2-py3-none-any.whl",
+            "has_sig": false,
+            "md5_digest": "379867e2e896357a2e2088dea74324b4",
+            "packagetype": "bdist_wheel",
+            "python_version": "py3",
+            "requires_python": ">=3.12",
+            "size": 58662,
+            "upload_time": "2026-02-19T16:23:51",
+            "upload_time_iso_8601": "2026-02-19T16:23:51.978521Z",
+            "url": "https://files.pythonhosted.org/packages/15/57/59cdd1eb39c4f7a7623fca32819f8c30aec7dac4b684f887e55d05073040/0din_jef-0.3.2-py3-none-any.whl",
+            "yanked": false,
+            "yanked_reason": null
+        },
+        {
+            "comment_text": null,
+            "digests": {
+                "blake2b_256": "0902e18698faa3372bac7515965a2a9160fae3bcbe54ec96c1fc140fc4033607",
+                "md5": "be48a108ff9201a4217cbe4aea62ee9a",
+                "sha256": "726df57076825a16a17700a092208235e95838b67d59a03da681c615095b57d7"
+            },
+            "downloads": -1,
+            "filename": "0din_jef-0.3.2.tar.gz",
+            "has_sig": false,
+            "md5_digest": "be48a108ff9201a4217cbe4aea62ee9a",
+            "packagetype": "sdist",
+            "python_version": "source",
+            "requires_python": ">=3.12",
+            "size": 72377,
+            "upload_time": "2026-02-19T16:23:52",
+            "upload_time_iso_8601": "2026-02-19T16:23:52.807945Z",
+            "url": "https://files.pythonhosted.org/packages/09/02/e18698faa3372bac7515965a2a9160fae3bcbe54ec96c1fc140fc4033607/0din_jef-0.3.2.tar.gz",
+            "yanked": false,
+            "yanked_reason": null
+        }
+    ],
+    "vulnerabilities": []
+}
